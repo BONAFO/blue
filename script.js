@@ -1,3 +1,4 @@
 document.getElementById("perro").onclick = () => {
-    navigator.bluetooth.requestDevice({acceptAllDevices: true});
+    const data = navigator.userAgent;
+    document.getElementById("as").textContent = data;    
 };
